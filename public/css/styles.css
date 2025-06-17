@@ -1,0 +1,16 @@
+:root {
+  --bs-font-sans-serif: 'Rubik', sans-serif;
+}
+
+.container-xxl {
+  max-width: 1530px;
+}
+
+body {
+  background-image: url('/images/Light-aluminum-Grey-Seamless-Pattern-For-Website-Background.jpg');
+  background-color: rgb(243, 243, 243);
+}
+
+a {
+  color: var(--bs-dark);
+}
