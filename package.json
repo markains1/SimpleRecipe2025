@@ -4,7 +4,8 @@
   "description": "Baseline version of the Recipe app",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -30,5 +31,11 @@
     "mongoose": "^8.16.0",
     "node": "^24.2.0",
     "npm": "^11.4.2"
+  },
+  "prettier": {
+    "singleQuote": true
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
   }
 }
