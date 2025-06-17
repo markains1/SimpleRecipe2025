@@ -1,0 +1,34 @@
+{
+  "name": "simplerecipe2025",
+  "version": "1.0.0",
+  "description": "Baseline version of the Recipe app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markains1/SimpleRecipe2025.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/markains1/SimpleRecipe2025/issues"
+  },
+  "homepage": "https://github.com/markains1/SimpleRecipe2025#readme",
+  "dependencies": {
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^16.5.0",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "express-ejs-layouts": "^2.5.1",
+    "express-fileupload": "^1.5.1",
+    "express-session": "^1.18.1",
+    "mongodb": "^6.17.0",
+    "mongoose": "^8.16.0",
+    "node": "^24.2.0",
+    "npm": "^11.4.2"
+  }
+}
