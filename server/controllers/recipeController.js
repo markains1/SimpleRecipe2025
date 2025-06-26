@@ -128,6 +128,17 @@ exports.exploreRandom = async (req, res) => {
   }
 };
 
+
+/**
+ * Get /submit-recipe
+ * Submit Recipe
+ */
+exports.submitRecipe = async (req, res) => {
+  res.render('submit-recipe', { title: 'Poppys Table - Submit Recipe' });
+
+
+}
+
 // Just for initial insert of a set of Recipes  into the DB
 /** Initial Data Insert Turned Off 
 async function insertInitialRecipeData() {

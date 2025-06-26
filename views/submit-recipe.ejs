@@ -1,0 +1,68 @@
+<div class="px-4 py-5 my-5 text-center">
+    <h1 class="display-5 fw-bold">Submit Your Recipe</h1>
+    <div class="col-lg-6 mx-auto">
+        <p class="lead">Share your amazing recipies with the group! Fill out the form to get started.</p>
+    </p>
+    </div>
+</div>
+
+<div class="row justify-content-center">
+    <div class="col-8">
+        <form action="/submit-recipe" enctype="multipart/form-data" method="POST">
+            <div class="row g-3">
+
+                <!-- Email field -->
+                <div class="col-12">
+                    <label for="email" class="form-label">Email</label>
+                    <input class="form-control" name="email" name="email" id="email">
+                </div>
+
+                <!-- Recipe Name field-->
+                <div class="col-12">
+                    <label for="name" class="form-label">Recipe Name</label>
+                    <input class="form-control" type="text" name="name" id="name">
+                </div>
+
+                <!-- Description field -->
+                <div class="col-12">
+                    <label for="description" class="form-label">Recipe Description</label>
+                    <textarea class="form-control" name="description" id="description" cols="30" rows="4"></textarea>
+                </div>
+
+                <!-- NEW Ingredients field -->
+                <div class="col-12">
+                    <label for="ingredients" class="form-label">Ingredients</label>
+                    <small>E.g. 1 tbs Baking Powder</small>
+                    <textarea class="form-control" name="ingredients" id="ingredients" cols="30" rows="8"></textarea>
+                </div> 
+            <div class="col12">
+                <button type="button" class="btn btn-outline-primary" id="addIngredientBtn">+ Ingredients</button>
+            </div>
+
+            <!-- Categories -->
+            <div class="col-12">
+                <label for=""category">Select Category</label>
+                <select class="form-select form-control" name="category" aria-label="Category">
+                    <option selected>Select Category</option>
+                    <option value=""Thai">Thai</option>
+                    <option value=""American">American</option>
+                    <option value=""Chinese">Chinese</option>
+                    <option value=""Mexican">Mexican</option>
+                    <option value=""Indian">Indian</option>
+                </select>
+            </div>
+
+            <!-- Recipe Image -->
+            <div class="col-12">
+                <label for="image">Recipe Image</label>
+                <input type="file" class="form-control" name="image" accept="image/*">
+                <!-- We can specify with "accept" above the type of image...-->
+            </div>
+
+            <!-- The Submit Button -->
+            <div class="col-12">
+                <button type="submit" class="btn btn-primary">Submit Recipe</button>
+            </div>
+        </form>
+    </div>
+</div>
